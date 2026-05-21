@@ -1,0 +1,7 @@
+{
+  "app": "npx tsx amplify/backend.ts",
+  "context": {
+    "@aws-cdk/customresources:installLatestAwsSdkDefault": false,
+    "@aws-cdk/aws-s3-deployment:memoryLimit": 512
+  }
+}
